@@ -1,0 +1,6 @@
+{
+  "phabricator.uri": "https://phabricator.technative.in/",
+  "load": [
+    ".arcexts/tap_test_engine"
+  ]
+}
