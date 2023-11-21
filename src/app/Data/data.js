@@ -17,7 +17,7 @@ import {SiSwiggy} from "react-icons/si"
 import {VscServer,VscFeedback} from "react-icons/vsc"
 import {TbCloudUp} from "react-icons/tb"
 import {PiBookOpenText} from "react-icons/pi"
-
+ 
 export const teams = [
     {
       description: '" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. "',
@@ -73,7 +73,7 @@ export const KeyFeatures = [
     {
         Icon:Icon.Layout,
         title:"Based On Tailwindcss 3",
-    },
+    }, 
     {
         Icon:Icon.Feather,
         title:"Feather Icons",
@@ -94,7 +94,7 @@ export const KeyFeatures = [
         Icon:Icon.Settings,
         title:"Easy to customize",
     },
-
+    
 ]
 export  const clientsData = [
   {
@@ -148,7 +148,7 @@ export const blogData = [
       desc: 'The phrasal sequence of the is now so that many campaign and benefit',
   },
   {
-      id:3,
+      id:3,    
       Image: "/images/blog/03.jpg",
       title: 'Smartest Applications for Business',
       desc: 'The phrasal sequence of the is now so that many campaign and benefit',
@@ -166,7 +166,7 @@ export const blogData = [
     desc: 'The phrasal sequence of the is now so that many campaign and benefit',
 },
 {
-    id:6,
+    id:6,    
     Image: "/images/cafe/b3.jpg",
     title: 'Best Cup Of Drinks For Your Break Today',
     desc: 'The phrasal sequence of the is now so that many campaign and benefit',
@@ -291,7 +291,7 @@ export const SeoServece = [
         title:"Email Marketing",
         desc:"The phrasal sequence of the is now so that many campaign and benefit",
     },
-
+    
 ]
 export const clientsDataTwo = [
     {
@@ -377,31 +377,25 @@ export const ourCausesData = [
 ]
 export  const teamData = [
     {
-        image: "/images/client/Rutuja2.png",
-        name: 'Rutuja Dahatonde',
-        title: 'Chief Techie',
+        image:"/images/client/01.jpg",
+        name:"Ronny Jofra",
+        title:"C.E.O.",
         desc:"If the distribution of letters and words is random",
         background:"bg-indigo-600/10 dark:bg-indigo-600/30 ",
-        instaURL: "https://www.instagram.com/rutu.10/",
-        linkedinURL: "https://www.linkedin.com/in/rutuja-dahatonde/",
     },
     {
-        image:"/images/client/Vaibhav2.png",
-        name:"Vaibhav Mathkari",
-        title:"Managing Director",
+        image:"/images/client/02.jpg",
+        name:"Aliana Rosy",
+        title:"HR",
         desc:"If the distribution of letters and words is random",
         background:"bg-emerald-600/10 dark:bg-emerald-600/30 ",
-        instaURL: "https://www.instagram.com/mvaibhav/",
-        linkedinURL: "https://www.linkedin.com/in/vaibhavsm/"
     },
     {
-        image:"/images/client/dhruv1.png",
-        name:"Dhruv Goyal",
-        title:"Chief Marketing",
+        image:"/images/client/03.jpg",
+        name:"Sofia Razaq",
+        title:"C.O.O.",
         desc:"If the distribution of letters and words is random",
         background:"bg-red-600/10 dark:bg-red-600/30  ",
-        instaURL: "https://www.instagram.com/goyald/",
-        linkedinURL: "https://www.linkedin.com/in/dhruvgoyal/",
     },
     {
         image:"/images/client/04.jpg",
@@ -937,7 +931,7 @@ export const NftServices = [
         id: 'kristyhoney',
         background:"bg-gradient-to-r to-sky-600/70 from-yellow-600/70"
     },
-]
+] 
 export const nftProdectData = [
     {
         id:1,
@@ -1254,7 +1248,7 @@ export const cafeData = [
         price: '19.99'
     },
 ];
-export const service2 =
+export const service2 = 
     [{ imageList: "/images/cafe/coffee-cup/01.jpg" },
     { imageList: "/images/cafe/coffee-cup/02.jpg" },
     { imageList: "/images/cafe/coffee-cup/03.jpg" },
@@ -1288,7 +1282,7 @@ export const gymServices = [
         title:"Progression",
         desc:"After you decide to start training we will make sure you get the best fitness program. Our sport experts and latest sports equipment are the winning combination."
     },
-]
+]  
 export const meditationData = [
     {
         image:"/images/yoga/sound.jpg",
@@ -1308,7 +1302,7 @@ export const meditationData = [
         desc:"Start working with Techwind that can provide everything you need to generate awareness, drive traffic, connect.",
         Icon:Icon.Sun
     },
-]
+] 
 export const workData = [
     {
      image:"/images/yoga/life-coach.png",
@@ -1330,7 +1324,7 @@ export const workData = [
      title:"Religion",
      desc:"If the distribution of letters and words is random, the reader will not be distracted from making."
     },
- ]
+ ] 
 export  const timeData = [
     {time:"8:00AM",image:"/images/yoga/t01.jpg", title:"Dhanurasana", name:"- Calvin Carlo" },
     {time:"9:00AM",image:"/images/yoga/t02.jpg", title:"Bhujangasana", name:"- Cristina Murphy" },
@@ -1340,7 +1334,7 @@ export  const timeData = [
     {time:"3:00PM",image:"/images/yoga/i2.jpg", title:"Natarajasana", name:"- Cristina Murphy" },
     {time:"4:00PM",image:"/images/yoga/i3.jpg", title:"Halasana", name:"- Alice Perry" },
     {time:"5:00PM",image:"/images/yoga/i4.jpg", title:"Vajrasana", name:"- Hayley Matthews" },
-]
+] 
 export  const yogaTeam = [
     {image:"/images/yoga/t01.jpg", name:"Calvin Carlo", title:"Yoga Teacher"},
     {image:"/images/yoga/t02.jpg", name:"Cristina Murphy", title:"Yoga Teacher"},
@@ -1508,42 +1502,42 @@ export  const jobServices = [
     }
 ]
 export const candidates = [
-    {
+    { 
         id:1,
-        image:"/images/client/01.jpg",
+        image:"/images/client/01.jpg", 
         name:"Steven Townsend"
     },
-    {
+    { 
         id:2,
         image:"/images/client/02.jpg",
-        name:"Tiffany Betancourt"
+        name:"Tiffany Betancourt" 
     },
-    {
+    { 
         id:3,
         image:"/images/client/03.jpg",
-        name:"Jacqueline Burns"
+        name:"Jacqueline Burns" 
     },
-    {
+    { 
         id:4,
         image:"/images/client/04.jpg",
-        name:"Mari Harrington"
+        name:"Mari Harrington" 
     },
-    {
+    { 
         id:5,
         image:"/images/client/05.jpg",
-        name:"Floyd Glasgow"
+        name:"Floyd Glasgow" 
     },
-    {
+    { 
         id:6,
         image:"/images/client/06.jpg",
-        name:"Donna Schultz"
+        name:"Donna Schultz" 
     },
-    {
+    { 
         id:7,
         image:"/images/client/07.jpg",
-        name:"Joshua Morris"
+        name:"Joshua Morris" 
     },
-    {
+    { 
         id:8,
         image:"/images/client/08.jpg",
         name:"Rosaria Vargas"
@@ -1668,7 +1662,7 @@ export const portfolioOne = [
         name: 'Mockup Collection',
         dataGroup: '["photography"]',
         category: 'photography',
-
+        
 
     },
     {
@@ -1827,7 +1821,7 @@ export   const mesonaryData = [
             image: "/images/portfolio/10.jpg",
             dataGroup: '["designing"]',
              category: 'designing',
-
+            
         },
         {
             id:1,
@@ -2120,4 +2114,4 @@ export   const mesonaryData = [
             amount:"$21.00",
             descAmount:"$16.00",
         },
-    ]
+    ] 

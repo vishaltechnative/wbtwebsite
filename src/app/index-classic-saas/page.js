@@ -52,7 +52,7 @@ export default function ClassicSaas(){
       ]
     return(
         <>
-            <Navbar navClass="nav-light"/>
+            <Navbar navClass="nav-sticky"/>
 
             <section className="relative table w-full py-36 lg:py-44 overflow-hidden">
                 <div className="container relative">
@@ -107,7 +107,7 @@ export default function ClassicSaas(){
                                             <Icons/>
                                         </div>
                                     </div>
-
+        
                                     <div className="mt-6">
                                         <Link href="#" className="text-xl font-medium hover:text-indigo-600 duration-500 ease-in-out">{item.title}</Link>
                                         <p className="text-slate-400 transition duration-500 ease-in-out mt-3">{item.desc}</p>

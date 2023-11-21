@@ -6,9 +6,8 @@ import { useState, useEffect } from 'react';
 import * as Icon from 'react-feather';
 
 export default function Navbar({ navClass, navJustify }) {
-  console.log(navClass,'navClassnavClassnavClass');
     const [isMenu, setisMenu] = useState(false);
-    const[navbarTop, setNavbarTop] = useState(false);
+    const[navbarTop, setNavbarTop] = useState(false); 
 
     const toggleMenu = () => {
         setisMenu(!isMenu);
@@ -27,14 +26,14 @@ export default function Navbar({ navClass, navJustify }) {
             });
         }
     };
-
+    
     useEffect(() => {
         if (typeof window !== "undefined"){
             window.addEventListener("scroll", windowScroll);
         }
         activateMenu();
         window.scrollTo(0, 0)
-
+        
     }, []);
 
     function windowScroll() {
@@ -126,7 +125,7 @@ export default function Navbar({ navClass, navJustify }) {
 
     };
 
-
+     
     return (
         < >
             <nav id="topnav" className={`${navbarTop ? "nav-sticky" : ""} ${navClass === "nav-light" ? '' : navClass === "nav-sticky" ? 'bg-white dark:bg-slate-900' : ''} defaultscroll font-nunito`}>
@@ -135,15 +134,15 @@ export default function Navbar({ navClass, navJustify }) {
                         navClass === "nav-light" ?
                             <Link href="/" className="logo" >
                                 <span className="inline-block dark:hidden">
-                                    <Image style={{maxWidth: '50%'}} src="/images/web-dark.jpg" className="l-dark" height={24} width={138} alt="" />
-                                    <Image style={{maxWidth: '50%'}} src="/images/web-light.jpg" className="l-light" height={24} width={138} alt="" />
+                                    <Image src="/images/logo-dark.png" className="l-dark" height={24} width={138} alt="" />
+                                    <Image src="/images/logo-light.png" className="l-light" height={24} width={138} alt="" />
                                 </span>
-                                <Image style={{maxWidth: '50%'}} src="/images/web-light.jpg" height={24} width={138} className="hidden dark:inline-block" alt="" />
+                                <Image src="/images/logo-light.png" height={24} width={138} className="hidden dark:inline-block" alt="" />
                             </Link>
                             :
                             <Link href="/" className="logo" >
-                                <Image src="/images/web-dark.jpg" style={{maxWidth: '50%'}} height={24} width={138}  className="inline-block dark:hidden" alt="" />
-                                <Image src="/images/web-light.jpg" style={{maxWidth: '50%'}} height={24} width={138}  className="hidden dark:inline-block" alt="" />
+                                <Image src="/images/logo-dark.png" height={24} width={138}  className="inline-block dark:hidden" alt="" />
+                                <Image src="/images/logo-light.png" height={24} width={138}  className="hidden dark:inline-block" alt="" />
                             </Link>
                     }
 
@@ -168,7 +167,7 @@ export default function Navbar({ navClass, navJustify }) {
                                 <li className="inline ps-1 mb-0">
                                     <Link href="#" className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white"><Icon.ShoppingCart className="h-4 w-4" /></Link>
                                 </li>
-
+                                
                             </ul>
                             :
                             <ul className="buy-button list-none space-x-1 mb-0">
@@ -178,7 +177,7 @@ export default function Navbar({ navClass, navJustify }) {
                                     <span className="login-btn-light"><span className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 border hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><Icon.Settings className="h-4 w-4" /></span></span>
                                 </Link>
                             </li>
-
+                    
                             <li className="inline ps-1 mb-0">
                                 <Link href="#">
                                     <div className="login-btn-primary"><span className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center rounded-full bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white"><Icon.ShoppingCart className="h-4 w-4" /></span></div>
@@ -187,12 +186,12 @@ export default function Navbar({ navClass, navJustify }) {
                             </li>
                         </ul>
                     }
-
+                
                     <div id="navigation" style={{ display: isMenu ? 'block' : 'none' }}>
                         <ul className={`navigation-menu ${navClass} ${navJustify}`}>
                             <li><Link href="/" className="sub-menu-item">Home</Link></li>
 
-                            {/*<li className="has-submenu parent-parent-menu-item">
+                            <li className="has-submenu parent-parent-menu-item">
                                 <Link href="#" >Landings</Link><span className="menu-arrow"></span>
 
                                 <ul className="submenu megamenu">
@@ -275,9 +274,9 @@ export default function Navbar({ navClass, navJustify }) {
                                         </ul>
                                     </li>
                                 </ul>
-                            </li> */}
+                            </li>
 
-                            {/*<li className="has-submenu parent-parent-menu-item">
+                            <li className="has-submenu parent-parent-menu-item">
                                 <Link href="#!">Pages</Link><span className="menu-arrow"></span>
                                 <ul className="submenu">
                                     <li className="has-submenu parent-menu-item"><Link href="#"> Company </Link><span className="submenu-arrow"></span>
@@ -441,9 +440,9 @@ export default function Navbar({ navClass, navJustify }) {
                                         </ul>
                                     </li>
                                 </ul>
-                            </li> */}
+                            </li>
 
-                            {/*<li className="has-submenu parent-parent-menu-item">
+                            <li className="has-submenu parent-parent-menu-item">
                                 <Link href="#">Portfolio</Link><span className="menu-arrow"></span>
                                 <ul className="submenu megamenu">
                                     <li>
@@ -500,18 +499,17 @@ export default function Navbar({ navClass, navJustify }) {
                                         </ul>
                                     </li>
                                 </ul>
-                            </li> */}
+                            </li>
 
-                            {/*<li className="has-submenu parent-menu-item">
+                            <li className="has-submenu parent-menu-item">
                                 <Link href="#">Docs</Link><span className="menu-arrow"></span>
                                 <ul className="submenu">
                                     <li><Link href="/documentation" className="sub-menu-item">Documentation</Link></li>
                                     <li><Link href="/changelog" className="sub-menu-item">Changelog</Link></li>
                                 </ul>
-                            </li>*/}
+                            </li>
 
                             <li><Link href="/contact-one" className="sub-menu-item">Contact</Link></li>
-                            <li><Link href="/page-aboutus" className="sub-menu-item">About</Link></li>
                         </ul>
                     </div>
                 </div >

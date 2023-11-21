@@ -9,9 +9,9 @@ export default function TeamData(){
     return(
         <div className="grid md:grid-cols-12 grid-cols-1 mt-8 gap-[30px]">
 
-            {teamData.slice(0,3).map((data,index) => {
+            {teamData.slice(0,4).map((data,index) => {
                 return(
-                    <div className="lg:col-span-4 md:col-span-6" key={index}>
+                    <div className="lg:col-span-3 md:col-span-6" key={index}>
                         <div className="group text-center">
                             <div className="relative inline-block mx-auto h-52 w-52 rounded-full overflow-hidden">
                                 <Image src={data.image} width={0} height={0} sizes="100vw" style={{height:"auto", width:"100%"}} className="" alt="" />
@@ -19,8 +19,8 @@ export default function TeamData(){
 
                                 <ul className="list-none absolute start-0 end-0 -bottom-20 group-hover:bottom-5 transition-all duration-500 ease-in-out space-x-1">
                                     <li className="inline"><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full border border-indigo-600 bg-indigo-600 hover:border-indigo-600 hover:bg-indigo-600 text-white"><Icon.Facebook className="h-4 w-4"></Icon.Facebook></Link></li>
-                                    <li className="inline"><Link href={data.instaURL} className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full border border-indigo-600 bg-indigo-600 hover:border-indigo-600 hover:bg-indigo-600 text-white"><Icon.Instagram className="h-4 w-4"></Icon.Instagram></Link></li>
-                                    <li className="inline"><Link href={data.linkedinURL} className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full border border-indigo-600 bg-indigo-600 hover:border-indigo-600 hover:bg-indigo-600 text-white"><Icon.Linkedin className="h-4 w-4"></Icon.Linkedin></Link></li>
+                                    <li className="inline"><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full border border-indigo-600 bg-indigo-600 hover:border-indigo-600 hover:bg-indigo-600 text-white"><Icon.Instagram className="h-4 w-4"></Icon.Instagram></Link></li>
+                                    <li className="inline"><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full border border-indigo-600 bg-indigo-600 hover:border-indigo-600 hover:bg-indigo-600 text-white"><Icon.Linkedin className="h-4 w-4"></Icon.Linkedin></Link></li>
                                 </ul>
                             </div>
                             <div className="content mt-3">
