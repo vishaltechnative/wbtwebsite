@@ -54,7 +54,7 @@ export default function PageComingsoon() {
                         </div>
                         <div className="title-heading text-center my-auto">
                             <h1 className="text-white mt-3 mb-6 md:text-5xl text-3xl font-bold">We Are Coming Soon...</h1>
-                            <p className="text-white/70 text-lg max-w-xl mx-auto">Start working with Way Beyond Tech that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                            <p className="text-white/70 text-lg max-w-xl mx-auto">Start working with Way Beyond.Tech that can provide everything you need to generate awareness, drive traffic, connect.</p>
 
                             <div id="countdown">
                                 <ul className="count-down list-none inline-block text-white text-center mt-8 m-6">
@@ -67,7 +67,7 @@ export default function PageComingsoon() {
                             </div>
                         </div>
                         <div className="text-center">
-                            <p className="mb-0 text-slate-400">© {new Date().getFullYear()} Way Beyond Tech.</p>
+                            <p className="mb-0 text-slate-400">© {new Date().getFullYear()} Way Beyond.Tech</p>
                         </div>
                     </div>
                 </div>
