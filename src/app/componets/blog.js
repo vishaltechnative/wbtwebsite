@@ -16,7 +16,7 @@ export default function Blog({className}){
                 </div>
 
                 <div className="md:col-span-6">
-                    <p className="text-slate-400 max-w-xl">Start working with Techwind that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                    <p className="text-slate-400 max-w-xl">Start working with Way Beyond Tech that can provide everything you need to generate awareness, drive traffic, connect.</p>
                 </div>
             </div>
 

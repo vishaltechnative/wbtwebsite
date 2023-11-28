@@ -40,8 +40,8 @@ const alex = Alex_Brush({
 
 
 export const metadata = {
-  title: 'Techwind - Next Js Saas & Software Template',
-  description: 'Techwind - Next Js Saas & Software Template',
+  title: 'Way Beyond Tech',
+  description: 'Way Beyond Tech',
 }
 
 export default function RootLayout({ children }) {

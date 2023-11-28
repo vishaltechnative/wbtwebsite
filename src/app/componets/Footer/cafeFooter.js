@@ -28,7 +28,7 @@ export default function CafeFooter(){
 
                                 <div className="text-center">
                                     <h5 className="tracking-[1px] text-gray-100 font-semibold mb-4">Address</h5>
-                                    <p className="mb-2">Techwind Cafe & Restro</p>
+                                    <p className="mb-2">Way Beyond Tech Cafe & Restro</p>
                                     <p className="mb-0">C/54 Northwest Freeway, Suite 558, USA 485</p>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@ export default function CafeFooter(){
             <div className="py-[30px] px-0 border-t border-slate-800">
                 <div className="container relative text-center">
                     <div className="grid md:grid-cols-1">
-                        <p className="mb-0">© {new Date().getFullYear()} Techwind. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link href="/https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
+                        <p className="mb-0">© {new Date().getFullYear()} Way Beyond Tech. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link href="/https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
                     </div>
                 </div>
             </div>

@@ -45,7 +45,7 @@ export default function ShopAbout(){
 
                 <div className="relative text-center mt-3">
                     <ul className="tracking-[0.5px] mb-0 inline-flex space-x-1">
-                        <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-indigo-600"><Link href="/index-shop">Techwind</Link></li>
+                        <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-indigo-600"><Link href="/index-shop">Way Beyond Tech</Link></li>
                         <li className="inline-block text-base text-slate-950 dark:text-white mx-0.5"><MdKeyboardArrowRight className="text-xl"/></li>
                         <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-indigo-600"aria-current="page">About us</li>
                     </ul>
@@ -57,7 +57,7 @@ export default function ShopAbout(){
             <div className="container">
                 <div className="md:flex justify-center">
                     <div className="lg:w-3/5 text-center">
-                        <h5 className="text-2xl font-semibold">Techwind Shop</h5>
+                        <h5 className="text-2xl font-semibold">Way Beyond Tech Shop</h5>
 
                         <p className="text-slate-400 mt-4">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
                     </div>

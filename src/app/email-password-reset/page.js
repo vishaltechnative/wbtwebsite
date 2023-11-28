@@ -39,13 +39,13 @@ export default function PasswordReset(){
 
                         <tr>
                             <td style={{padding: '15px 24px 15px',  color: '#8492a6'}}>
-                                Techwind <br /> Support Team
+                                Way Beyond Tech <br /> Support Team
                             </td>
                         </tr>
 
                         <tr>
                             <td style={{padding: '16px 8px', color: '#8492a6', backgroundColor: '#f8f9fc',  textAlign: 'center'}}>
-                                © {new Date().getFullYear()} Techwind.
+                                © {new Date().getFullYear()} Way Beyond Tech.
                             </td>
                         </tr>
                     </tbody>

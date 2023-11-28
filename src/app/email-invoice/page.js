@@ -50,7 +50,7 @@ export default function EmailInvoice(){
                                     <tbody>
                                         <tr>
                                             <th scope="row" style={{ textAlign: 'left', padding: 12 + 'px', borderTop: '1px solid #dee2e6' }}>1</th>
-                                            <td style={{ textAlign: 'left', padding: 12 + 'px', borderTop: '1px solid #dee2e6' }}>Techwind Template</td>
+                                            <td style={{ textAlign: 'left', padding: 12 + 'px', borderTop: '1px solid #dee2e6' }}>Way Beyond Tech Template</td>
                                             <td style={{ textAlign: 'end', padding: 12 + 'px', borderTop: '1px solid #dee2e6' }}>$ 5200</td>
                                         </tr>
                                         <tr>
@@ -76,7 +76,7 @@ export default function EmailInvoice(){
 
                     <tr>
                         <td style={{ padding: '16px 8px', color: '#8492a6', backgroundColor: '#f8f9fc', textAlign: 'center' }}>
-                            © {new Date().getFullYear()} Techwind.
+                            © {new Date().getFullYear()} Way Beyond Tech.
                         </td>
                     </tr>
                 </tbody>

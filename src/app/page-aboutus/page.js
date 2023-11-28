@@ -186,7 +186,7 @@ export default function AboutUs(){
 
                                         <div className="mt-8">
                                             <div className="section-title text-md-start">
-                                                <p className="text-white/50 max-w-xl mx-auto mb-2">Start working with Techwind that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                                <p className="text-white/50 max-w-xl mx-auto mb-2">Start working with Way Beyond Tech that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                                 <Link href="#"  className="text-white flex items-center">Read More<MdKeyboardArrowRight className="text-xl ms-1"/></Link>
                                             </div>
                                         </div>

@@ -135,15 +135,15 @@ export default function Navbar({ navClass, navJustify }) {
                         navClass === "nav-light" ?
                             <Link href="/" className="logo" >
                                 <span className="inline-block dark:hidden">
-                                    <Image style={{maxWidth: '50%'}} src="/images/web-dark.jpg" className="l-dark" height={24} width={138} alt="" />
-                                    <Image style={{maxWidth: '50%'}} src="/images/web-light.jpg" className="l-light" height={24} width={138} alt="" />
+                                    <Image style={{maxWidth: '50%'}} src="/images/web-dark.svg" className="l-dark" height={24} width={138} alt="" />
+                                    <Image style={{maxWidth: '50%'}} src="/images/web-light.png" className="l-light" height={24} width={138} alt="" />
                                 </span>
-                                <Image style={{maxWidth: '50%'}} src="/images/web-light.jpg" height={24} width={138} className="hidden dark:inline-block" alt="" />
+                                <Image style={{maxWidth: '50%'}} src="/images/web-light.png" height={24} width={138} className="hidden dark:inline-block" alt="" />
                             </Link>
                             :
                             <Link href="/" className="logo" >
-                                <Image src="/images/web-dark.jpg" style={{maxWidth: '50%'}} height={24} width={138}  className="inline-block dark:hidden" alt="" />
-                                <Image src="/images/web-light.jpg" style={{maxWidth: '50%'}} height={24} width={138}  className="hidden dark:inline-block" alt="" />
+                                <Image src="/images/web-dark.svg" style={{maxWidth: '50%'}} height={24} width={138}  className="inline-block dark:hidden" alt="" />
+                                <Image src="/images/web-light.png" style={{maxWidth: '50%'}} height={24} width={138}  className="hidden dark:inline-block" alt="" />
                             </Link>
                     }
 
@@ -502,16 +502,16 @@ export default function Navbar({ navClass, navJustify }) {
                                 </ul>
                             </li> */}
 
-                            {/*<li className="has-submenu parent-menu-item">
+                            {<li className="has-submenu parent-menu-item">
                                 <Link href="#">Docs</Link><span className="menu-arrow"></span>
                                 <ul className="submenu">
-                                    <li><Link href="/documentation" className="sub-menu-item">Documentation</Link></li>
-                                    <li><Link href="/changelog" className="sub-menu-item">Changelog</Link></li>
+                                    <li><Link href="/documentation" className="sub-menu-item">Services</Link></li>
+                                    <li><Link href="/changelog" className="sub-menu-item">Products</Link></li>
                                 </ul>
-                            </li>*/}
-
-                            <li><Link href="/contact-one" className="sub-menu-item">Contact</Link></li>
+                            </li>}
                             <li><Link href="/page-aboutus" className="sub-menu-item">About</Link></li>
+                            <li><Link href="/contact-one" className="sub-menu-item">Contact</Link></li>
+
                         </ul>
                     </div>
                 </div >

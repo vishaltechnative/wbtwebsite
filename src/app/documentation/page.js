@@ -22,7 +22,7 @@ export default function Documentation(){
 
                 <div className="absolute text-center z-10 bottom-5 start-0 end-0 mx-3">
                     <ul className="tracking-[0.5px] mb-0 inline-flex space-x-1">
-                        <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-indigo-600"><Link href="/">Techwind</Link></li>
+                        <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-indigo-600"><Link href="/">Way Beyond Tech</Link></li>
                         <li className="inline-block text-base mx-0.5 ltr:rotate-0 rtl:rotate-180"><MdKeyboardArrowRight className="text-xl"/></li>
                         <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-indigo-600"aria-current="page">Documentation</li>
                     </ul>
@@ -43,7 +43,7 @@ export default function Documentation(){
                         <div>
                             <h4 className="text-3xl font-semibold mb-4">Introduction</h4>
 
-                            <p className="text-slate-400 text-base leading-8"><strong>Techwind</strong> is a fully responsive, clean and modern high-converting Next Js landing page template. It is a beautifully handcrafted, pixel perfect HTML5 landing page template based on the <b>Next 13.x., React 18.X and Tailwind css v3.x.</b>. Techwind is a Powerful Next Js Multipurpose Landing Page Template. It is an excellent template for startup, cloud hosting, business, corporate, minimal portfolio single product (Smartwatch) , Saas, Social media marketing, Digital marketing/agency, Email Templates, Marketing, Agency, Careers and Jobs, Helpcenter, and much more.</p>
+                            <p className="text-slate-400 text-base leading-8"><strong>Way Beyond Tech</strong> is a fully responsive, clean and modern high-converting Next Js landing page template. It is a beautifully handcrafted, pixel perfect HTML5 landing page template based on the <b>Next 13.x., React 18.X and Tailwind css v3.x.</b>. Way Beyond Tech is a Powerful Next Js Multipurpose Landing Page Template. It is an excellent template for startup, cloud hosting, business, corporate, minimal portfolio single product (Smartwatch) , Saas, Social media marketing, Digital marketing/agency, Email Templates, Marketing, Agency, Careers and Jobs, Helpcenter, and much more.</p>
 							<p className="text-slate-400 text-base leading-8 font-semibold mt-2">Dark & RTL version Available: We have added a RTL version in both Dark and Light versions.</p>
                         </div>
 

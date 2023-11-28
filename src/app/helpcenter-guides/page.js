@@ -26,7 +26,7 @@ export default function HelpcenterGuides(){
 
             <div className="absolute text-center z-10 bottom-5 start-0 end-0 mx-3">
                 <ul className="tracking-[0.5px] mb-0 inline-flex space-x-1">
-                    <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><Link href="/">Techwind</Link></li>
+                    <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><Link href="/">Way Beyond Tech</Link></li>
                     <li className="inline-block text-base text-white/50 mx-0.5 ltr:rotate-0 rtl:rotate-180"><MdKeyboardArrowRight className="text-xl"/></li>
                     <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><Link href="/helpcenter-overview">Helpcenter</Link></li>
                     <li className="inline-block text-base text-white/50 mx-0.5 ltr:rotate-0 rtl:rotate-180"><MdKeyboardArrowRight className="text-xl"/></li>
@@ -76,7 +76,7 @@ export default function HelpcenterGuides(){
                             <li className="mt-2"><Link href="#" className="text-slate-400"><i className="mdi mdi-arrow-right text-indigo-600 me-2"></i>Updating your listing</Link></li>
                             <li className="mt-2"><Link href="#" className="text-slate-400"><i className="mdi mdi-arrow-right text-indigo-600 me-2"></i>Neighbourhoods</Link></li>
                             <li className="mt-2"><Link href="#" className="text-slate-400"><i className="mdi mdi-arrow-right text-indigo-600 me-2"></i>Listing photos & photography</Link></li>
-                            <li className="mt-2"><Link href="#" className="text-slate-400"><i className="mdi mdi-arrow-right text-indigo-600 me-2"></i>Techwind Plus</Link></li>
+                            <li className="mt-2"><Link href="#" className="text-slate-400"><i className="mdi mdi-arrow-right text-indigo-600 me-2"></i>Way Beyond Tech Plus</Link></li>
                             <li className="mt-2"><Link href="#" className="text-slate-400"><i className="mdi mdi-arrow-right text-indigo-600 me-2"></i>API-connected software</Link></li>
                         </ul>
                     </div>
@@ -95,8 +95,8 @@ export default function HelpcenterGuides(){
                     <div className="">
                         <h5 className="font-semibold text-xl">Your reservations</h5>
                         <ul className="list-none mt-4">
-                            <li className="mt-2"><Link href="#" className="text-slate-400"><i className="mdi mdi-arrow-right text-indigo-600 me-2"></i>Techwind safely</Link></li>
-                            <li className="mt-2"><Link href="#" className="text-slate-400"><i className="mdi mdi-arrow-right text-indigo-600 me-2"></i>Techwind Experiences and Adventures</Link></li>
+                            <li className="mt-2"><Link href="#" className="text-slate-400"><i className="mdi mdi-arrow-right text-indigo-600 me-2"></i>Way Beyond Tech safely</Link></li>
+                            <li className="mt-2"><Link href="#" className="text-slate-400"><i className="mdi mdi-arrow-right text-indigo-600 me-2"></i>Way Beyond Tech Experiences and Adventures</Link></li>
                             <li className="mt-2"><Link href="#" className="text-slate-400"><i className="mdi mdi-arrow-right text-indigo-600 me-2"></i>Changing a reservation</Link></li>
                             <li className="mt-2"><Link href="#" className="text-slate-400"><i className="mdi mdi-arrow-right text-indigo-600 me-2"></i>Cancelling a reservation</Link></li>
                             <li className="mt-2"><Link href="#" className="text-slate-400"><i className="mdi mdi-arrow-right text-indigo-600 me-2"></i>Long-term reservations</Link></li>

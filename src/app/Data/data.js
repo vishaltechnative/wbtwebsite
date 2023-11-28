@@ -98,39 +98,51 @@ export const KeyFeatures = [
 ]
 export  const clientsData = [
   {
-      description: '" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. "',
+      description: '" I have worked with TechNative for both developing and maintaining web applications, their attention to detail, the ability to see gaps and offer enhancements brought great value to the product. "',
       image: "/images/client/01.jpg",
-      name: 'Calvin Carlo',
+      name: 'TitanDef',
       role: 'Manager'
   },
   {
-      description: `" The most well-known dummy text is the Lorem Ipsum, which is said to have originated in the 16th century. "`,
+      description: `" TechNative helped me build a robust invoicing and document tracking system for my logistics organization. The app is easy, intuitive and accessible at all levels of my company. "`,
       image: "/images/client/02.jpg",
-      name: 'Christa Smith',
+      name: 'ATC',
       role: 'Manager'
   },
   {
-      description: '" One disadvantage of Lorum Ipsum is that in Latin certain letters appear more frequently than others. "',
+      description: '" The app TechNative built for us has let us monitor our remote construction sites with ease. Thanks to them, we get real-time progress reports on all our sites. They saved us a lot in money, manpower and paperwork. "',
       image: "/images/client/03.jpg",
-      name: 'Jemina CLone',
+      name: 'UPPL',
       role: 'Manager'
   },
   {
       description: '" Thus, Lorem Ipsum has only limited suitability as a visual filler for German texts. "',
       image: "/images/client/04.jpg",
-      name: 'Smith Vodka',
+      name: 'Intellimation.ai',
       role: 'Manager'
   },
   {
       description: '" There is now an abundance of readable dummy texts. These are usually used when a text is required. "',
       image: "/images/client/05.jpg",
-      name: 'Cristino Murfi',
+      name: 'Kothari Wheels',
       role: 'Manager'
   },
   {
       description: '" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero. "',
       image: "/images/client/06.jpg",
-      name: 'Cristino Murfi',
+      name: 'Crystal Autobiz',
+      role: 'Manager'
+  },
+  {
+      description: '" It’s hard to find an I.T. company that understands the importance & sensitivity of the public sector. TechNative analysed our working patterns and deployed precise solutions for our bio-gas domain. "',
+      image: "/images/client/05.jpg",
+      name: 'KJBF',
+      role: 'Manager'
+  },
+  {
+      description: '" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero. "',
+      image: "/images/client/06.jpg",
+      name: 'FET',
       role: 'Manager'
   }
 ]
@@ -245,19 +257,19 @@ export  const contactData = [
         icon:FaRegQuestionCircle,
         name:"Phone",
         title:"+152 534-468-854",
-        desc:"Start working with Techwind that can provide everything"
+        desc:"Start working with Way Beyond Tech that can provide everything"
     },
     {
         icon:MdOutlineCollectionsBookmark,
         name:"Email",
         title:"contact@example.com",
-        desc:"Start working with Techwind that can provide everything"
+        desc:"Start working with Way Beyond Tech that can provide everything"
     },
     {
         icon:HiOutlineCog6Tooth,
         name:"Location",
         title:"View on Google map",
-        desc:"Start working with Techwind that can provide everything"
+        desc:"Start working with Way Beyond Tech that can provide everything"
     },
 ]
 export const SeoServece = [
@@ -302,13 +314,13 @@ export const clientsDataTwo = [
         image1:"/images/client/02.jpg",
         name1:"Barbara McIntosh",
         title1:"C.E.O",
-        desc1:"There are so many things I had to do with my old software that I just Do not do at all with Techwind. Suspicious but I can not say I Do not love it.",
+        desc1:"There are so many things I had to do with my old software that I just Do not do at all with Way Beyond Tech. Suspicious but I can not say I Do not love it.",
     },
     {
         image:"/images/client/03.jpg",
         name:"Carl Oliver",
         title:"C.E.O",
-        desc:"The best part about Techwind is every time I pay my employees, my bank balance doesn't go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.",
+        desc:"The best part about Way Beyond Tech is every time I pay my employees, my bank balance doesn't go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.",
         image1:"/images/client/04.jpg",
         name1:"Jill Webb",
         title1:"C.E.O",
@@ -318,7 +330,7 @@ export const clientsDataTwo = [
         image:"/images/client/05.jpg",
         name:"Barbara McIntosh",
         title:"C.E.O",
-        desc:"I used to have to remit tax to the EU and with Techwind I somehow Do not have to do that anymore. Nervous to travel there now though.",
+        desc:"I used to have to remit tax to the EU and with Way Beyond Tech I somehow Do not have to do that anymore. Nervous to travel there now though.",
         image1:"/images/client/06.jpg",
         name1:"Janisha Doll",
         title1:"C.E.O",
@@ -502,32 +514,32 @@ export   const digitalServices = [
 export  const digitalProduct = [
     {
         image:"/images/portfolio/pro1.jpg",
-        name:"Techwind Personal Portfolio",
+        name:"Way Beyond Tech Personal Portfolio",
         title:"Creative",
     },
     {
         image:"/images/portfolio/pro2.jpg",
-        name:"Techwind Personal Portfolio",
+        name:"Way Beyond Tech Personal Portfolio",
         title:"Creative",
     },
     {
         image:"/images/portfolio/pro3.jpg",
-        name:"Techwind Personal Portfolio",
+        name:"Way Beyond Tech Personal Portfolio",
         title:"Creative",
     },
     {
         image:"/images/portfolio/pro4.jpg",
-        name:"Techwind Personal Portfolio",
+        name:"Way Beyond Tech Personal Portfolio",
         title:"Creative",
     },
     {
         image:"/images/portfolio/pro5.jpg",
-        name:"Techwind Personal Portfolio",
+        name:"Way Beyond Tech Personal Portfolio",
         title:"Creative",
     },
     {
         image:"/images/portfolio/pro6.jpg",
-        name:"Techwind Personal Portfolio",
+        name:"Way Beyond Tech Personal Portfolio",
         title:"Creative",
     },
 ]
@@ -1293,19 +1305,19 @@ export const meditationData = [
     {
         image:"/images/yoga/sound.jpg",
         title:"Sound Therapy",
-        desc:"Start working with Techwind that can provide everything you need to generate awareness, drive traffic, connect.",
+        desc:"Start working with Way Beyond Tech that can provide everything you need to generate awareness, drive traffic, connect.",
         Icon:Icon.Headphones
     },
     {
         image:"/images/yoga/maditation.jpg",
         title:"Meditation",
-        desc:"Start working with Techwind that can provide everything you need to generate awareness, drive traffic, connect.",
+        desc:"Start working with Way Beyond Tech that can provide everything you need to generate awareness, drive traffic, connect.",
         Icon:Icon.GitMerge
     },
     {
         image:"/images/yoga/relaxing.jpg",
         title:"Mindfullness",
-        desc:"Start working with Techwind that can provide everything you need to generate awareness, drive traffic, connect.",
+        desc:"Start working with Way Beyond Tech that can provide everything you need to generate awareness, drive traffic, connect.",
         Icon:Icon.Sun
     },
 ]

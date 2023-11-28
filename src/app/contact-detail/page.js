@@ -63,7 +63,7 @@ export default function ContactDetails(){
                                     </ul>
                                 </div>
                                 <div className="flex justify-center text-center p-6 border-t border-gray-100 dark:border-gray-800">
-                                    <p className="mb-0 text-slate-400">© {new Date().getFullYear()} Techwind. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link href="/https://shreethemes.in/" target="_blank"
+                                    <p className="mb-0 text-slate-400">© {new Date().getFullYear()} Way Beyond Tech. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link href="/https://shreethemes.in/" target="_blank"
 
                                   className="text-reset">Shreethemes</Link>.</p>
                                 </div>

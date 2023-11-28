@@ -22,7 +22,7 @@ export default function BlogDetails(){
             <div className="absolute inset-0 bg-black opacity-80"></div>
             <div className="container relative">
                 <div className="grid grid-cols-1 pb-8 text-center mt-10">
-                    <h3 className="mb-3 text-3xl leading-normal font-medium text-white">My Very Minimal <br /> Interior Design Ideas</h3>
+                    <h3 className="mb-3 text-3xl leading-normal font-medium text-white">My Veryyyyyyy Minimal <br /> Interior Design Ideas</h3>
 
                     <ul className="list-none mt-6">
                         <li className="inline-block font-semibold text-white/50 mx-5"> <span className="text-white block">Client :</span> <span className="block">Calvin Carlo</span></li>
@@ -34,7 +34,7 @@ export default function BlogDetails(){
 
             <div className="absolute text-center z-10 bottom-5 start-0 end-0 mx-3">
                 <ul className=" tracking-[0.5px] mb-0 inline-flex space-x-1">
-                    <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><Link href="/">Techwind</Link></li>
+                    <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><Link href="/">Way Beyond Tech</Link></li>
                     <li className="inline-block text-base text-white/50 mx-0.5 ltr:rotate-0 rtl:rotate-180"><MdKeyboardArrowRight className="text-xl"/></li>
                     <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white" aria-current="page">Blogs Details</li>
                 </ul>
