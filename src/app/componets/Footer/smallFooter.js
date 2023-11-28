@@ -18,9 +18,9 @@ export default function SmallFooter(){
                                 </Link>
                             </div>
 
-                            <div className="lg:col-span-6 text-center mt-6 md:mt-0">
-                                <p className="mb-0">© {new Date().getFullYear()} Wey Beyond Tech. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link href="https://waybeyondtech.com/" target="_blank" className="text-reset">Wey Beyond Tech</Link>.</p>
-                            </div>
+                            {/*<div className="lg:col-span-6 text-center mt-6 md:mt-0">
+                                <p className="mb-0">© {new Date().getFullYear()} Way Beyond Tech. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link href="https://waybeyondtech.com/" target="_blank" className="text-reset">Way Beyond Tech</Link>.</p>
+                            </div>*/}
 
                             <ul className="lg:col-span-4 list-none space-x-1 md:text-end text-center mt-6 md:mt-0">
                                 {/*<li className="inline"><Link href="https://1.envato.market/techwind-next" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><PiShoppingCart className='text-sm'/></Link></li>
