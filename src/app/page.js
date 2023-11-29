@@ -36,7 +36,7 @@ export default function PageComingsoon() {
       }, []);
   return (
     <>
-        <section className="relative  bg-no-repeat bg-center bg-cover" style={{backgroundImage:"url('/images/utility.jpg')"}}>
+        <section className="relative  bg-no-repeat bg-center bg-cover" >
           <video autoPlay muted loop id="myVideo" style={{position: 'fixed',
   right: 0,
   bottom: 0,
@@ -50,7 +50,7 @@ export default function PageComingsoon() {
                 <div className="grid grid-cols-1">
                     <div className="flex flex-col min-h-screen justify-center md:px-10 py-10 px-4">
                         <div className="text-center">
-                            <Link href="/"><Image src="/images/web-dark.png" width={170} height={68} className="mx-auto" alt=""/></Link>
+                            <Link href="/"><Image src={`${document.documentElement.className.includes("dark") ? "/images/negative_logo.png": "/images/web-dark.png"}`} width={170} height={68} className="mx-auto" alt=""/></Link>
                         </div>
                         <div className="title-heading text-center my-auto">
                             <h1 className="text-white mt-3 mb-6 md:text-5xl text-3xl font-bold">We Are Coming Soon...</h1>
