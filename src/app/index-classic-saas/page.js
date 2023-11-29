@@ -199,13 +199,13 @@ export default function ClassicSaas(){
                                             <div className="mt-8">
                                                 <div className="section-title text-md-start">
                                                     <h6 className="text-white/50 text-lg font-semibold">Get Free Trial</h6>
-                                                    <h3 className="md:text-3xl text-2xl md:leading-normal leading-normal font-semibold text-white mt-2">Get An Easy Start <br /> With Way Beyond Tech Now</h3>
+                                                    <h3 className="md:text-3xl text-2xl md:leading-normal leading-normal font-semibold text-white mt-2">Get An Easy Start <br /> With waybeyond.tech Now</h3>
                                                 </div>
                                             </div>
 
                                             <div className="mt-8">
                                                 <div className="section-title text-md-start">
-                                                    <p className="text-white/50 max-w-xl mx-auto mb-2">Start working with Way Beyond Tech that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                                    <p className="text-white/50 max-w-xl mx-auto mb-2">Start working with waybeyond.tech that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                                     <Link href="#" className="text-white inline-flex items-center">Read More <MdKeyboardArrowRight className="text-xl ms-1"/></Link>
                                                 </div>
                                             </div>

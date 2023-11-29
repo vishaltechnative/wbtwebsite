@@ -19,7 +19,7 @@ export default function SmallFooter(){
                             </div>
 
                             {/*<div className="lg:col-span-6 text-center mt-6 md:mt-0">
-                                <p className="mb-0">© {new Date().getFullYear()} Way Beyond Tech. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link href="https://waybeyondtech.com/" target="_blank" className="text-reset">Way Beyond Tech</Link>.</p>
+                                <p className="mb-0">© {new Date().getFullYear()} waybeyond.tech. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link href="https://waybeyondtech.com/" target="_blank" className="text-reset">waybeyond.tech</Link>.</p>
                             </div>*/}
 
                             <ul className="lg:col-span-4 list-none space-x-1 md:text-end text-center mt-6 md:mt-0">

@@ -13,7 +13,7 @@ export default function PageComingsoon() {
     useEffect(() => {
 
           // The data/time we want to countdown to
-          var eventCountDown = new Date("December 16, 2023 16:37:52").getTime();
+          var eventCountDown = new Date("December 11, 2023 16:37:52").getTime();
 
           // Run myfunc every second
           var myfunc = setInterval(function () {
@@ -50,11 +50,11 @@ export default function PageComingsoon() {
                 <div className="grid grid-cols-1">
                     <div className="flex flex-col min-h-screen justify-center md:px-10 py-10 px-4">
                         <div className="text-center">
-                            <Link href="/"><Image src={`${document.documentElement.className.includes("dark") ? "/images/negative_logo.png": "/images/web-dark.png"}`} width={170} height={68} className="mx-auto" alt=""/></Link>
+                            <Link href="/"><Image src="/images/web-dark.png" width={100} height={68} className="mx-auto" alt=""/></Link>
                         </div>
                         <div className="title-heading text-center my-auto">
                             <h1 className="text-white mt-3 mb-6 md:text-5xl text-3xl font-bold">We Are Coming Soon...</h1>
-                            <p className="text-white/70 text-lg max-w-xl mx-auto">Start working with Way Beyond.Tech that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                            <p className="text-white/70 text-lg max-w-xl mx-auto">In a world where technology is advancing at an unprecedented pace, there arises a need for a software company that transcends the boundaries of convention. A company that doesn't just keep up with the latest trends, but one that sets the trends, redefines possibilities, and pushes the boundaries of what is imaginable. Welcome to waybeyond.tech</p>
 
                             <div id="countdown">
                                 <ul className="count-down list-none inline-block text-white text-center mt-8 m-6">
@@ -67,13 +67,12 @@ export default function PageComingsoon() {
                             </div>
                         </div>
                         <div className="text-center">
-                            <p className="mb-0 text-slate-400">© {new Date().getFullYear()} Way Beyond.Tech</p>
+                            <p className="mb-0 text-slate-400">© {new Date().getFullYear()} waybeyond.tech</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <Switcher/>
     </>
   )
 }

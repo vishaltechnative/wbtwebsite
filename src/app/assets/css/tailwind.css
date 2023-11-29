@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* Template Name: Way Beyond Tech - Tailwind CSS Multipurpose Landing Template
+/* Template Name: waybeyond.tech - Tailwind CSS Multipurpose Landing Template
    Author: Shreethemes
    Email: support@shreethemes.in
    Website: https://shreethemes.in
@@ -5735,7 +5735,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
   -webkit-transition-duration: 500ms;
           transition-duration: 500ms;
 }
-:is(.dark .tns-controls button[data-controls=prev]),:is(.dark 
+:is(.dark .tns-controls button[data-controls=prev]),:is(.dark
 .tns-controls button[data-controls=next]){
   --tw-bg-opacity: 1;
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
@@ -5856,7 +5856,7 @@ html[dir=rtl] .tns-visually-hidden {
           box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-:is(.dark .choices__list--dropdown),:is(.dark 
+:is(.dark .choices__list--dropdown),:is(.dark
 .choices[data-type*=select-one] .choices__input){
   --tw-bg-opacity: 1;
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
@@ -9862,14 +9862,14 @@ html[dir=rtl] .tns-visually-hidden {
     color: rgb(79 70 229 / var(--tw-text-opacity)) !important;
   }
 
-  
+
 .careHeight .carousel__slider-tray-wrapper{
     height:100% !important;
   }
   .careHeight .carousel__slider-tray-wrapper .sliderAnimation___300FY{
     height:100% !important;
   }
-  
+
   /*********************************/
   /*         Select2               */
   /*===============================*/
@@ -9883,31 +9883,31 @@ html[dir=rtl] .tns-visually-hidden {
     --tw-bg-opacity: 1;
     background-color: rgb(30 41 59 / var(--tw-bg-opacity)) !important;
   }
-  
+
   .css-t3ipsp-control {
     border-color: transparent !important;
     --tw-bg-opacity: 1;
     background-color: rgb(249 250 251 / var(--tw-bg-opacity)) !important;
   }
-  
+
   :is(.dark .css-t3ipsp-control){
     --tw-bg-opacity: 1;
     background-color: rgb(30 41 59 / var(--tw-bg-opacity)) !important;
   }
-  
+
   .css-1u9des2-indicatorSeparator{
     display: none !important;
   }
-  
+
   .css-1fdsijx-ValueContainer{
     padding: 0px !important;
   }
-  
+
   .css-qbdosj-Input {
     margin: 0 !important;
     padding: 0px !important;
   }
-  
+
   .css-13cymwt-control:hover,
   .css-13cymwt-control:focus,
   .css-t3ipsp-control:hover,
@@ -9919,18 +9919,18 @@ html[dir=rtl] .tns-visually-hidden {
     -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
             box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
   }
-  
-  
+
+
   .css-1dimb5e-singleValue{
     --tw-text-opacity: 1;
     color: rgb(22 28 45 / var(--tw-text-opacity)) !important;
   }
-  
+
   :is(.dark .css-1dimb5e-singleValue){
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
   }
-  
+
   .css-1nmdiq5-menu{
     z-index: 999;
     border-radius: 5px;
@@ -9947,7 +9947,7 @@ html[dir=rtl] .tns-visually-hidden {
   .css-1nmdiq5-menu .css-1n6sfyn-MenuList::-webkit-scrollbar {
     display: none;
   }
-  
+
   :is(.dark .css-1nmdiq5-menu){
     --tw-bg-opacity: 1;
     background-color: rgb(15 23 42 / var(--tw-bg-opacity)) !important;
@@ -9956,7 +9956,7 @@ html[dir=rtl] .tns-visually-hidden {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
   }
-  
+
   .css-13cymwt-control:after,
   .css-13cymwt-control:before{
     --tw-shadow: 0 0 #0000;
@@ -9999,7 +9999,7 @@ html[dir=rtl] .tns-visually-hidden {
     border-width: 1px!important;
     border-radius: 100% !important;
     margin-right: -10px !important;
-    
+
 }
 .swiper-button-next, .swiper-rtl .swiper-button-prev {
     right: var(--swiper-navigation-sides-offset, 36px) !important;
@@ -10020,7 +10020,7 @@ html[dir=rtl] .tns-visually-hidden {
     border-width: 1px!important;
     border-radius: 100% !important;
     margin-right: -10px !important;
-    
+
 }
 .swiper-button-prev, .swiper-rtl .swiper-button-prev {
     right: var(--swiper-navigation-sides-offset, 36px) !important;

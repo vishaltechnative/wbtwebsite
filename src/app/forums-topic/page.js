@@ -49,17 +49,17 @@ export default function fourmsTopic(){
         <section className="relative table w-full py-32 lg:py-40 bg-gray-50 dark:bg-slate-800">
             <div className="container relative">
                 <div className="grid grid-cols-1 text-center mt-10">
-                    <h3 className="text-3xl leading-normal font-medium">Way Beyond Tech Announcements</h3>
+                    <h3 className="text-3xl leading-normal font-medium">waybeyond.tech Announcements</h3>
                 </div>
             </div>
 
             <div className="absolute text-center z-10 bottom-5 start-0 end-0 mx-3">
                 <ul className="tracking-[0.5px] mb-0 inline-flex space-x-1">
-                    <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-indigo-600"><Link href="/">Way Beyond Tech</Link></li>
+                    <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-indigo-600"><Link href="/">waybeyond.tech</Link></li>
                     <li className="inline-block text-base text-slate-950 dark:text-white mx-0.5 ltr:rotate-0 rtl:rotate-180"><MdKeyboardArrowRight className="text-xl"/></li>
                     <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-indigo-600"><Link href="/index-forums">Forum</Link></li>
                     <li className="inline-block text-base text-slate-950 dark:text-white mx-0.5 ltr:rotate-0 rtl:rotate-180"><MdKeyboardArrowRight className="text-xl"/></li>
-                    <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-indigo-600"aria-current="page">Way Beyond Tech Announcements</li>
+                    <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-indigo-600"aria-current="page">waybeyond.tech Announcements</li>
                 </ul>
             </div>
         </section>

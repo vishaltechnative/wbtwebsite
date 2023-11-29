@@ -93,7 +93,7 @@ export default function Startup(){
                         <div className="md:me-6">
                             <Image src="/images/logo-icon-40.png" width={46} height={40} className="mb-4" alt="" />
                             <h4 className="font-semibold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 text-black dark:text-white">Build, Grow, And <br /> Manage Your Brand</h4>
-                            <p className="text-slate-400 text-lg max-w-xl">Start working with Way Beyond Tech that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                            <p className="text-slate-400 text-lg max-w-xl">Start working with waybeyond.tech that can provide everything you need to generate awareness, drive traffic, connect.</p>
 
                             <div className="mt-6">
                                 <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Learn More</Link>
@@ -169,7 +169,7 @@ export default function Startup(){
                 <div className="grid grid-cols-1 text-center">
                     <h3 className="mb-4 md:text-3xl text-2xl text-white font-medium">Stop leaving money on the table.</h3>
 
-                    <p className="text-white/80 max-w-xl mx-auto">Start working with Way Beyond Tech that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                    <p className="text-white/80 max-w-xl mx-auto">Start working with waybeyond.tech that can provide everything you need to generate awareness, drive traffic, connect.</p>
 
                     <Link href="#" onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610" className="lightbox h-20 w-20 rounded-full shadow-md dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-indigo-600 mx-auto mt-10">
                         <i className="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
@@ -183,7 +183,7 @@ export default function Startup(){
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Our Services</h3>
 
-                    <p className="text-slate-400 max-w-xl mx-auto">Start working with Way Beyond Tech that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                    <p className="text-slate-400 max-w-xl mx-auto">Start working with waybeyond.tech that can provide everything you need to generate awareness, drive traffic, connect.</p>
                 </div>
 
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">

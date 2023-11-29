@@ -257,19 +257,19 @@ export  const contactData = [
         icon:FaRegQuestionCircle,
         name:"Phone",
         title:"+152 534-468-854",
-        desc:"Start working with Way Beyond Tech that can provide everything"
+        desc:"Start working with waybeyond.tech that can provide everything"
     },
     {
         icon:MdOutlineCollectionsBookmark,
         name:"Email",
         title:"contact@example.com",
-        desc:"Start working with Way Beyond Tech that can provide everything"
+        desc:"Start working with waybeyond.tech that can provide everything"
     },
     {
         icon:HiOutlineCog6Tooth,
         name:"Location",
         title:"View on Google map",
-        desc:"Start working with Way Beyond Tech that can provide everything"
+        desc:"Start working with waybeyond.tech that can provide everything"
     },
 ]
 export const SeoServece = [
@@ -314,13 +314,13 @@ export const clientsDataTwo = [
         image1:"/images/client/02.jpg",
         name1:"Barbara McIntosh",
         title1:"C.E.O",
-        desc1:"There are so many things I had to do with my old software that I just Do not do at all with Way Beyond Tech. Suspicious but I can not say I Do not love it.",
+        desc1:"There are so many things I had to do with my old software that I just Do not do at all with waybeyond.tech. Suspicious but I can not say I Do not love it.",
     },
     {
         image:"/images/client/03.jpg",
         name:"Carl Oliver",
         title:"C.E.O",
-        desc:"The best part about Way Beyond Tech is every time I pay my employees, my bank balance doesn't go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.",
+        desc:"The best part about waybeyond.tech is every time I pay my employees, my bank balance doesn't go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.",
         image1:"/images/client/04.jpg",
         name1:"Jill Webb",
         title1:"C.E.O",
@@ -330,7 +330,7 @@ export const clientsDataTwo = [
         image:"/images/client/05.jpg",
         name:"Barbara McIntosh",
         title:"C.E.O",
-        desc:"I used to have to remit tax to the EU and with Way Beyond Tech I somehow Do not have to do that anymore. Nervous to travel there now though.",
+        desc:"I used to have to remit tax to the EU and with waybeyond.tech I somehow Do not have to do that anymore. Nervous to travel there now though.",
         image1:"/images/client/06.jpg",
         name1:"Janisha Doll",
         title1:"C.E.O",
@@ -514,32 +514,32 @@ export   const digitalServices = [
 export  const digitalProduct = [
     {
         image:"/images/portfolio/pro1.jpg",
-        name:"Way Beyond Tech Personal Portfolio",
+        name:"waybeyond.tech Personal Portfolio",
         title:"Creative",
     },
     {
         image:"/images/portfolio/pro2.jpg",
-        name:"Way Beyond Tech Personal Portfolio",
+        name:"waybeyond.tech Personal Portfolio",
         title:"Creative",
     },
     {
         image:"/images/portfolio/pro3.jpg",
-        name:"Way Beyond Tech Personal Portfolio",
+        name:"waybeyond.tech Personal Portfolio",
         title:"Creative",
     },
     {
         image:"/images/portfolio/pro4.jpg",
-        name:"Way Beyond Tech Personal Portfolio",
+        name:"waybeyond.tech Personal Portfolio",
         title:"Creative",
     },
     {
         image:"/images/portfolio/pro5.jpg",
-        name:"Way Beyond Tech Personal Portfolio",
+        name:"waybeyond.tech Personal Portfolio",
         title:"Creative",
     },
     {
         image:"/images/portfolio/pro6.jpg",
-        name:"Way Beyond Tech Personal Portfolio",
+        name:"waybeyond.tech Personal Portfolio",
         title:"Creative",
     },
 ]
@@ -1305,19 +1305,19 @@ export const meditationData = [
     {
         image:"/images/yoga/sound.jpg",
         title:"Sound Therapy",
-        desc:"Start working with Way Beyond Tech that can provide everything you need to generate awareness, drive traffic, connect.",
+        desc:"Start working with waybeyond.tech that can provide everything you need to generate awareness, drive traffic, connect.",
         Icon:Icon.Headphones
     },
     {
         image:"/images/yoga/maditation.jpg",
         title:"Meditation",
-        desc:"Start working with Way Beyond Tech that can provide everything you need to generate awareness, drive traffic, connect.",
+        desc:"Start working with waybeyond.tech that can provide everything you need to generate awareness, drive traffic, connect.",
         Icon:Icon.GitMerge
     },
     {
         image:"/images/yoga/relaxing.jpg",
         title:"Mindfullness",
-        desc:"Start working with Way Beyond Tech that can provide everything you need to generate awareness, drive traffic, connect.",
+        desc:"Start working with waybeyond.tech that can provide everything you need to generate awareness, drive traffic, connect.",
         Icon:Icon.Sun
     },
 ]

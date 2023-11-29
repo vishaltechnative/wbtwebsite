@@ -21,7 +21,7 @@ export default function EmailConfirmation(){
                     </tr>
                     <tr>
                         <td style={{padding: '15px 24px 15px',  color: '#8492a6'}}>
-                            Thanks for creating an Way Beyond Tech account. To continue, please confirm your email address by clicking the button below :
+                            Thanks for creating an waybeyond.tech account. To continue, please confirm your email address by clicking the button below :
                         </td>
                     </tr>
 
@@ -39,13 +39,13 @@ export default function EmailConfirmation(){
 
                     <tr>
                         <td style={{padding: '15px 24px 15px',  color: '#8492a6'}}>
-                            Way Beyond Tech <br /> Support Team
+                            waybeyond.tech <br /> Support Team
                         </td>
                     </tr>
 
                     <tr>
                         <td style={{padding: '16px 8px', color: '#8492a6', backgroundColor: '#f8f9fc',  textAlign: 'center'}}>
-                            © {new Date().getFullYear()} Way Beyond Tech.
+                            © {new Date().getFullYear()} waybeyond.tech.
                         </td>
                     </tr>
                 </tbody>

@@ -31,7 +31,7 @@ export default function Pricing(){
         },
         {
             id: 2,
-            title: 'Do I need a designer to use Way Beyond Tech ?',
+            title: 'Do I need a designer to use waybeyond.tech ?',
             content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
         },
         {
@@ -51,7 +51,7 @@ export default function Pricing(){
         },
         {
             id: 6,
-            title: 'Do I need a designer to use Way Beyond Tech ?',
+            title: 'Do I need a designer to use waybeyond.tech ?',
             content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
         },
         {
@@ -108,7 +108,7 @@ export default function Pricing(){
 
             <div className="absolute text-center z-10 bottom-5 start-0 end-0 mx-3">
                 <ul className=" tracking-[0.5px]  mb-0 inline-flex mx-auto space-x-1">
-                    <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><Link href="/">Way Beyond Tech</Link></li>
+                    <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><Link href="/">waybeyond.tech</Link></li>
                     <li className="inline-block text-base text-white/50 mx-0.5 ltr:rotate-0 rtl:rotate-180"><MdKeyboardArrowRight className="text-xl"/></li>
                     <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><Link href="#">Company</Link></li>
                     <li className="inline-block text-base text-white/50 mx-0.5 ltr:rotate-0 rtl:rotate-180"><MdKeyboardArrowRight className="text-xl"/></li>
@@ -151,7 +151,7 @@ export default function Pricing(){
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Choose Pricing Plan</h3>
 
-                    <p className="text-slate-400 max-w-xl mx-auto">Start working with Way Beyond Tech that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                    <p className="text-slate-400 max-w-xl mx-auto">Start working with waybeyond.tech that can provide everything you need to generate awareness, drive traffic, connect.</p>
                 </div>
 
                 <div className="grid grid-cols-1">

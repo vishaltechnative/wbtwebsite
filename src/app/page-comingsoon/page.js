@@ -11,23 +11,23 @@ export default function PageComingsoon() {
     let [minutes,setMinutes] = useState();
     let [seconds,setSeconds] = useState();
     useEffect(() => {
-        
+
           // The data/time we want to countdown to
           var eventCountDown = new Date("December 25, 2023 16:37:52").getTime();
-    
+
           // Run myfunc every second
           var myfunc = setInterval(function () {
-    
+
             var now = new Date().getTime();
             var timeleft = eventCountDown - now;
-    
+
             // Calculating the days, hours, minutes and seconds left
              setDays(Math.floor(timeleft / (1000 * 60 * 60 * 24)))
              setHours(Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)))
              setMinutes(Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60)))
              setSeconds(Math.floor((timeleft % (1000 * 60)) / 1000))
-    
-    
+
+
             // Display the message when countdown is over
             if (timeleft < 0) {
               clearInterval(myfunc);
@@ -47,8 +47,8 @@ export default function PageComingsoon() {
                         </div>
                         <div className="title-heading text-center my-auto">
                             <h1 className="text-white mt-3 mb-6 md:text-5xl text-3xl font-bold">We Are Coming Soon...</h1>
-                            <p className="text-white/70 text-lg max-w-xl mx-auto">Start working with Way Beyond Tech that can provide everything you need to generate awareness, drive traffic, connect.</p>
-                        
+                            <p className="text-white/70 text-lg max-w-xl mx-auto">Start working with waybeyond.tech that can provide everything you need to generate awareness, drive traffic, connect.</p>
+
                             <div id="countdown">
                                 <ul className="count-down list-none inline-block text-white text-center mt-8 m-6">
                                     <li  className="text-[40px] leading-[110px] h-[130px] w-[130px] rounded-full shadow-md bg-white/10 backdrop-opacity-30 inline-block m-2">{days}<p className='count-head'>Days</p></li>
@@ -60,7 +60,7 @@ export default function PageComingsoon() {
                             </div>
                         </div>
                         <div className="text-center">
-                            <p className="mb-0 text-slate-400">© {new Date().getFullYear()} Way Beyond Tech. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link href="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
+                            <p className="mb-0 text-slate-400">© {new Date().getFullYear()} waybeyond.tech. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link href="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
                         </div>
                     </div>
                 </div>

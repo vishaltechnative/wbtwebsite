@@ -40,8 +40,8 @@ const alex = Alex_Brush({
 
 
 export const metadata = {
-  title: 'Way Beyond Tech',
-  description: 'Way Beyond Tech',
+  title: 'waybeyond.tech',
+  description: 'waybeyond.tech',
 }
 
 export default function RootLayout({ children }) {

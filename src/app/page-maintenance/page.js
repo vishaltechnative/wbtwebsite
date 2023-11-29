@@ -43,7 +43,7 @@ export default function PageMaintenance() {
                     <div className="grid grid-cols-1">
                         <Image src="/images/logo-light.png" width={138} height={24} className="mx-auto" alt="" />
                         <h1 className="text-white mb-6 mt-8 md:text-5xl text-3xl font-bold">We Are Back Soon...</h1>
-                        <p className="text-white/70 text-lg max-w-xl mx-auto">Start working with Way Beyond Tech that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                        <p className="text-white/70 text-lg max-w-xl mx-auto">Start working with waybeyond.tech that can provide everything you need to generate awareness, drive traffic, connect.</p>
                     </div>
 
                     <div className="grid grid-cols-1 mt-10">
