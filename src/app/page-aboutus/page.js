@@ -87,7 +87,7 @@ export default function AboutUs(){
                 <div className="grid grid-cols-1 pb-8 text-center mt-10">
                     <h3 className="mb-6 md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">About Us</h3>
 
-                    <p className="text-slate-300 text-lg max-w-xl mx-auto">waybeyond.tech is not just a company; it's a mindset. It's the belief that the limits of technology are only temporary roadblocks on the path to progress. We embrace complexity and see it as an opportunity to simplify. We thrive on collaboration, constantly seeking new perspectives, and forging partnerships that lead to groundbreaking results.</p>
+                    <p className="text-slate-300 text-lg max-w-xl mx-auto">waybeyond.tech is not just a company; it&apos;s a mindset. It&lsquo;s the belief that the limits of technology are only temporary roadblocks on the path to progress. We embrace complexity and see it as an opportunity to simplify. We thrive on collaboration, constantly seeking new perspectives, and forging partnerships that lead to groundbreaking results.</p>
                 </div>
             </div>
 
@@ -137,7 +137,7 @@ export default function AboutUs(){
 
                             <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Who we are ?</h3>
 
-                            <p className="text-slate-400 max-w-xl">waybeyond.tech is not just a company; it's a mindset. It's the belief that the limits of technology are only temporary roadblocks on the path to progress. We embrace complexity and see it as an opportunity to simplify. We thrive on collaboration, constantly seeking new perspectives, and forging partnerships that lead to groundbreaking results.</p>
+                            <p className="text-slate-400 max-w-xl">waybeyond.tech is not just a company; it&lsquo;s a mindset. It&lsquo;s the belief that the limits of technology are only temporary roadblocks on the path to progress. We embrace complexity and see it as an opportunity to simplify. We thrive on collaboration, constantly seeking new perspectives, and forging partnerships that lead to groundbreaking results.</p>
 
                             <div className="mt-6">
                                 <Link href="/contact-one" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md me-2 mt-2"><FaRegEnvelope className="me-2 text-sm"/> Contact us</Link>
